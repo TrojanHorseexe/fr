@@ -119,7 +119,8 @@ end
 play(2871458177, true, true)
 end)
 
-local MainButton = DioPage.AddButton("Angry", function()
+local MainButton = DioPage.AddButton("😡", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("😡", "All")
     local OriginalKeyUpValue = 0
 function StopAudio()
     if game:GetService("Players").LocalPlayer.Character.LowerTorso:FindFirstChild("BOOMBOXSOUND") then
@@ -172,7 +173,8 @@ end
 play(154157312, true, true)
 end)
 
-local MainButton = DioPage.AddButton("Devil", function()
+local MainButton = DioPage.AddButton("😈", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("😈", "All")
     local OriginalKeyUpValue = 0
 function StopAudio()
     if game:GetService("Players").LocalPlayer.Character.LowerTorso:FindFirstChild("BOOMBOXSOUND") then
@@ -281,4 +283,7 @@ function play(ID, STOP, LMAO)
         end
     end
 end
+end)
+
+play(1601659619, true, true)
 end)
