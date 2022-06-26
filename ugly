@@ -116,7 +116,7 @@ function play(ID, STOP, LMAO)
     end
 end
 
-play(2871458177, true, true)
+play(9997289034, true, true)
 end)
 
 local MainButton = DioPage.AddButton("Angry", function()
